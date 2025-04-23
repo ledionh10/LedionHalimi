@@ -61,3 +61,19 @@ div{
     font-family: oblique;
     font-weight: 800;
 }
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: darkmagenta;
+}
