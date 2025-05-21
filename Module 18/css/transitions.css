@@ -1,0 +1,10 @@
+.div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: background 3s;
+}
+
+.div:hover{
+    background-color: blue;
+}

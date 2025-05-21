@@ -54,7 +54,7 @@
 
 } */
 
-.body{
+/* .body{
     counter-reset: number;
 
 }
@@ -68,5 +68,47 @@ h2::before{
     margin: 5px 12px;
     color: #00014e;
 }
-   
-    
+    */
+
+    :root{
+    --primary-color: #4caf50;
+    --secondary-color:#fff;
+    padding: 20px;
+    }
+
+    h1{
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        padding: var(padding);
+    }
+
+    p{
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        padding: var(padding);
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
+    }
+
+    #speedster img{
+        transform: scale(1);
+        transition: 0.3 ease-in-out;
+    }
+
+     #hipster img{
+        transform: scale(1);
+        transition: 0.3 ease-in-out;
+    }
+
+     #enginner img{
+        transform: scale(1);
+        transition: 0.3 ease-in-out;
+    }
+
+     #shadow img{
+        transform: scale(1);
+        transition: 0.3 ease-in-out;
+    }
