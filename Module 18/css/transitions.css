@@ -8,3 +8,48 @@
 .div:hover{
     background-color: blue;
 }
+
+img{
+    width: 200px;
+    height: 200px;
+
+}
+
+#speedsters img{
+     transform: scale(1);
+     transition:  .3s ease-in-out;
+}
+
+#speedsters:hover{
+    transform: scale(1.5);
+}
+
+#engineers img{
+    margin-left: 0px;
+    transition: 3s ease-in-out;
+}
+
+#enginners:hover img{
+    margin-left: 30px;
+
+}
+
+#hipsters img{
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+
+}
+
+#hipsters:hover img{
+    filter: grayscale(0);
+}
+
+#shadows img{
+    filter: blur(3px);
+    transition: .3s ease-in-out;
+}
+
+#shadows:hover img {
+    filter: blur(0);
+    
+}
