@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GameZone - Gaming eShop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo">🎮 GameZone</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><label for="cart-toggle" class="nav-link">Cart</label></li>
+        <li><label for="login-toggle" class="nav-link">Login</label></li>
+      </ul>
+    </nav>
+  </header>
+  <input type="checkbox" id="login-toggle" hidden />
+<input type="checkbox" id="cart-toggle" hidden />
+
+
+<div class="modal login-modal">
+  <label for="login-toggle" class="overlay"></label>
+  <div class="modal-content">
+    <label for="login-toggle" class="close-btn">&times;</label>
+    <h2>Login to GameZone</h2>
+    <form>
+      <label for="username">Username</label>
+      <input type="text" id="username" required />
+      <label for="password">Password</label>
+      <input type="password" id="password" required />
+      <button type="submit" class="btn">Login</button>
+    </form>
+  </div>
+</div>
+
+
+<div class="cart-sidebar">
+  <label for="cart-toggle" class="overlay"></label>
+  <div class="cart-panel">
+    <label for="cart-toggle" class="close-btn">&times;</label>
+    <h2>Your Cart</h2>
+    <p>Your cart is currently empty.</p>
+  </div>
+</div>
+
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Level Up Your Gaming</h1>
+      <p>Discover the latest and greatest in gaming gear and games.</p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="6e592b5a87524bac513ed41d60d471fc-removebg-preview (1).png" alt="Game 1">
+        <h3>Ducky Keyboard</h3>
+        <p>$59.99</p>
+        <a href="#">Add to Cart</a>
+      </div>
+      <div class="product-card">
+        <img src="controller.png" alt="Controller">
+        <h3>Xbox Controller</h3>
+        <p>$49.99</p>
+        <a href="#">Add to Cart</a>
+      </div>
+      <div class="product-card">
+        <img src="HyperX-Cloud-Core-7-removebg-preview.png" alt="Elden Ring">
+        <h3>HyperX Headphones</h3>
+        <p>$39.99</p>
+        <a href="#">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+
+
+<section class="about" id="about">
+  <h2>About GameZone</h2>
+  <p>
+    At GameZone, we live and breathe gaming. From the latest AAA titles to high-performance accessories, 
+    our mission is to deliver the best gear and experiences to players around the world. Founded by gamers, 
+    for gamers, we're here to level up your play.
+  </p>
+</section>
+
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" required />
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" required />
+
+    <label for="message">Your Message</label>
+    <textarea id="message" rows="5" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 GameZone. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
