@@ -67,3 +67,14 @@ Car.startEngine();
 console.log(Car.getName);
 Car.setName="Mercedes";
 console.log(Car.getName);
+
+
+
+function computer (name,CPU,RAM,GPU){
+    this.name=name;
+    this.CPU=CPU;
+    this.RAM=RAM;
+    this.GPU=GPU;
+}
+
+var computer1= new computer("MacBook","M1-8 Core,8GB,RTX 3060");
